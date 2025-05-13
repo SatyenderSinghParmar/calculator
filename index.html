@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section class="calculator-main">
+        <header class="header">Calculator</header>
+        <article class="calculator-display">
+            <input type="text" name="display" class="display" id="calc-display" placeholder="Enter Your Number" readonly>
+        </article>
+        <article class="calculator-num-buttons">
+            <button type="button" class="cal-button" id="ac" onclick="getAcFn()"><img src="Media/images/ascension-island.png" alt="AC"></button>
+            <button type="button" class="cal-button" id="backspace" onclick="popElement()"><img src="Media/images/backspace.png" alt="<="></button>
+            <button type="button" class="cal-button" id="mod" value="%" onclick="getModFn()"><img src="Media/images/percent.png" alt="%"></button>
+            <button type="button" class="cal-button" id="div" value="/" onclick="getDivFn()"><img src="Media/images/slash.png" alt="/"></button>
+
+            <button type="button" class="cal-button" id="7" value="7" onclick="get7Fn()" accesskey="7"><img src="Media/images/seven.png" alt="7"></button>
+            <button type="button" class="cal-button" id="8" value="8" onclick="get8Fn()" accesskey="8"><img src="Media/images/number-8.png" alt="8"></button>
+            <button type="button" class="cal-button" id="9" value="9" onclick="get9Fn()" accesskey="9"><img src="Media/images/number-9.png" alt="9"></button>
+            <button type="button" class="cal-button" id="mul" value="*" onclick="getMulFn()"><img src="Media/images/close.png" alt="X"></button>
+
+            <button type="button" class="cal-button" id="4" value="4" onclick="get4Fn()"><img src="Media/images/number-four.png" alt="4"></button>
+            <button type="button" class="cal-button" id="5" value="5" onclick="get5Fn()"><img src="Media/images/number-5.png" alt="5"></button>
+            <button type="button" class="cal-button" id="6" value="6" onclick="get6Fn()"><img src="Media/images/six.png" alt="6"></utton>
+            <button type="button" class="cal-button" id="add" value="+" onclick="getAddFn()"><img src="Media/images/plus-sign.png" alt="+"></button>
+            
+            <button type="button" class="cal-button" id="1" value="1" onclick="get1Fn()"><img src="Media/images/number-one.png" alt="1"></button>
+            <button type="button" class="cal-button" id="2" value="2" onclick="get2Fn()"><img src="Media/images/number-2.png" alt="2"></button>
+            <button type="button" class="cal-button" id="3" value="3" onclick="get3Fn()"><img src="Media/images/number-3.png" alt="3"></button>
+            <button type="button" class="cal-button" id="sub" value="-" onclick="getSubFn()"><img src="Media/images/minus.png" alt="-"></button>
+            
+            <button type="button" class="cal-button" id="0" value="0" onclick="get0Fn()"><img src="Media/images/zero.png" alt="0"></button>
+            <button type="button" class="cal-button" id="00" value="00" onclick="get00Fn()"><img src="Media/images/o2.png" alt="00"></button>
+            <button type="button" class="cal-button" id="." value="." onclick="getdotFn()"><img src="Media/images/full-stop.png" alt="."></button>
+            <button type="button" class="cal-button" id="equals" onclick="getResult()"><img src="Media/images/equal.png" alt=""></button>
+        </article>
+        <aside class="calculator-op-buttons">
+        </aside>
+    </section>
+    <script src="JS/script.js"></script>
+</body>
+</html>

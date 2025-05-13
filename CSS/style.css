@@ -1,0 +1,84 @@
+html{
+    padding: 0;
+    border: 5px inset red;
+}
+body{
+    padding: 0;
+    border: 5px outset rgb(237, 26, 163);
+}
+
+.header{
+    text-align: right;
+    padding: 2px 10px 0 0;
+}
+
+.calculator-main{
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border: 7px outset cyan;
+    border-style: outset;
+    border-radius: 15px;
+    background-color: grey;
+    box-shadow: 10px 10px 5px lightblue;
+    /* display: flex; */
+}
+
+header{
+    font-size: 25px ;
+    font-family: fantasy;
+}
+
+.calculator-display{
+    display: inline-block;
+    width: 95%;
+    height: 7%;
+    border: 4px solid rgb(78, 76, 76);
+    margin: 5px;
+}
+
+.calculator-display input{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 113, 200);
+    font-size: x-large;
+    font-weight: 800;
+    text-shadow: 2px 2px red;
+    overflow: hidden;
+}
+
+.display{
+    width: 100%;
+    height: 100%;
+}
+
+.calculator-num-buttons{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+
+.cal-button{
+    height: 66px;
+    width: 66px;
+    margin: 5px;
+    padding: 0px;
+    border: 3px solid rgba(169, 12, 12, 0.516);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius: 50%;
+}
+
+.cal-button img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* .calculator-op-buttons{
+    width: 25%;
+} */
